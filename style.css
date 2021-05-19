@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: darkslategrey;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 15px dashed #fff;
+    cursor: pointer;
+    box-shadow: inset 1px 10px 10px rgba(0,0,0,.5);
+    background:slategrey;
+    color:#fff;
+}
+
+button:hover{
+    box-shadow: inset 1px 1px 10px rgba(0,0,0,.5);
+}
+
+button:active{
+    background: #fff;
+    color:#333;
+    border: 15px dashed slategrey;
+}
